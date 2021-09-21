@@ -50,7 +50,7 @@
   src: url("../fonts/SantaFiora-Script.otf"); }
 
 body {
-  font-family: "Petit Formal Script", cursive;
+  background-color: #e8dfda;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden; }
@@ -70,7 +70,8 @@ a,
   transition: 0.3s; }
 
 a:focus,
-.button:focus, button:focus {
+.button:focus,
+button:focus {
   text-decoration: none;
   outline: none; }
 
@@ -86,12 +87,15 @@ a:hover,
 
 a,
 button {
-  color: #1F1F1F;
+  color: #1f1f1f;
   outline: medium none; }
 
-h1, h2, h3, h4, h5 {
-  font-family: "Petit Formal Script", cursive;
-  color: #1F1F1F; }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Petit Formal Script", cursive; }
 
 h1 a,
 h2 a,
@@ -170,7 +174,7 @@ h3 {
   background: #ffffff; }
 
 .gray-bg {
-  background: #FFF5F5; }
+  background: #fff5f5; }
 
 .bg-img-1 {
   background-image: url(../img/slider/slider-img-1.jpg); }
@@ -202,8 +206,6 @@ h3 {
 
 .overlay2::before {
   position: absolute;
-  content: "";
-  background-color: #fff;
   top: 0;
   left: 0;
   width: 100%;
@@ -253,7 +255,7 @@ h3 {
   background: transparent;
   border-radius: 10px;
   width: 40px;
-  border: 1px solid #5D5C5C; }
+  border: 1px solid #5d5c5c; }
 
 .owl-carousel .owl-nav div.owl-next {
   left: auto;
@@ -515,6 +517,7 @@ h3 {
   background: #000 !important; }
 
 .header-area {
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -541,6 +544,9 @@ h3 {
     @media (min-width: 768px) and (max-width: 991px) {
       .header-area .main-header-area .logo-img img {
         width: 120px; } }
+    .header-area .main-header-area .logo-img img h3 {
+      font-family: "santa fiora script";
+      color: #cfb38a; }
     .header-area .main-header-area .main-menu {
       text-align: right; }
       .header-area .main-header-area .main-menu ul li {
@@ -561,7 +567,7 @@ h3 {
               font-size: 15px; } }
           @media (min-width: 1200px) and (max-width: 1500px) {
             .header-area .main-header-area .main-menu ul li a {
-              padding: 38px 18px 38px 18px; } }
+              padding: 38px 30px 38px 30px; } }
           .header-area .main-header-area .main-menu ul li a i {
             font-size: 9px; }
             @media (max-width: 767px) {
@@ -679,15 +685,8 @@ h3 {
         .header-area .social_media_links ul li a:hover {
           color: #c78665; }
 
-.slider_bg_1 {
-  background-image: url(../img/banner/banner.png); }
-
-.slider_bg_2 {
-  background-image: url(../img/banner/banner2.png); }
-
 .slider_area {
-  padding: 0 50px;
-  background: #fff; }
+  padding: 0 50px; }
   @media (max-width: 767px) {
     .slider_area {
       padding: 0 20px; } }
@@ -720,7 +719,7 @@ h3 {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-    background: #C78665;
+    background: #7ca89b;
     padding: 126px 55px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -814,7 +813,7 @@ h3 {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
-      border: 1px solid #C78665;
+      border: 1px solid #5b8275;
       top: -30px;
       left: -20px;
       z-index: -3; }
@@ -835,7 +834,7 @@ h3 {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;
-      border: 1px solid #F2C64D;
+      border: 1px solid #dab3b0;
       top: -30px;
       left: -40px;
       z-index: -3; }

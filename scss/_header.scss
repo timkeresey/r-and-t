@@ -1,5 +1,5 @@
 .header-area {
-  // position: absolute;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -34,6 +34,11 @@
         @media #{$tablet_device} {
           width: 120px;
         }
+
+        h3 {
+          font-family: $font-script;
+          color: $color-gold;
+        }
       }
     }
     .main-menu {
@@ -58,7 +63,7 @@
             @media #{$large_device} {
               // padding: 35px 8px 35px 8px;
               // font-size: 11px;
-              padding: 38px 18px 38px 18px;
+              padding: 38px 30px 38px 30px;
             }
             i {
               font-size: 9px;
