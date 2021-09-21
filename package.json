@@ -1,0 +1,22 @@
+{
+  "name": "r-and-t",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/style.scss css/style.css",
+    "watch:sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timkeresey/r-and-t.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timkeresey/r-and-t/issues"
+  },
+  "homepage": "https://github.com/timkeresey/r-and-t#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
