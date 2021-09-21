@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,400i,600,600i,700,700i,800,800i,900|Petit+Formal+Script&display=swap");
+
 // fonts
 @font-face {
   font-family: "essonnes display light";
@@ -24,8 +25,11 @@ $font1: "Muli", sans-serif;
 $font2: "Petit Formal Script", cursive;
 
 $font-header: "essonnes display light";
+$font-header-it: "essonnes display light italic";
+$font-body: "mr eaves xl mod ot light";
+$font-script: "santa fiora script";
 
-// fonts-size
+// Colors
 
 $heading-color: #000;
 $gray-color: #bebebe;
@@ -47,6 +51,14 @@ $font_7: #5c5c5c;
 $border_color: #fdcb9e;
 $footer_bg: #303030;
 $sidebar_bg: #fbf9ff;
+
+$color-green: #7ca89b;
+$color-green-dk: #5b8275;
+$color-gold: #cfb38a;
+$color-gold-dk: #aa906d;
+$color-tan: #e8dfda;
+$color-orange: #d69577;
+$color-pink: #dab3b0;
 
 $medium_device: "only screen and (min-width: 992px) and (max-width: 1200px)";
 $tab_device: "only screen and (min-width: 768px) and (max-width: 991px)";
